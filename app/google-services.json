@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "25757845014",
+    "firebase_url": "https://shrine-c76a5.firebaseio.com",
+    "project_id": "shrine-c76a5",
+    "storage_bucket": "shrine-c76a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25757845014:android:a7aec1a749aca28c",
+        "android_client_info": {
+          "package_name": "com.alex.google.codelabs.mdc.java.shrine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25757845014-v41ds7k22u8f80bjf49tcav2e80c5gjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alex.google.codelabs.mdc.java.shrine",
+            "certificate_hash": "46417b8f74cccbc9d0fa2e1c76c0430aa19d6f24"
+          }
+        },
+        {
+          "client_id": "25757845014-4bmcgshughucosfogmacum8rhlibu3lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ixdUz_iXWFDpfJXZzmmHnIB2ANQR5ZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25757845014-4bmcgshughucosfogmacum8rhlibu3lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
