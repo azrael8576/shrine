@@ -1,5 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
 buildscript {
     
     repositories {
@@ -11,8 +10,9 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0-alpha03'
-        classpath 'com.google.gms:google-services:4.1.0'
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        // Check for v3.1.2 or higher
+        classpath 'com.google.gms:google-services:4.0.1'
         // Add dependency
         classpath 'io.fabric.tools:gradle:1.26.1'
 
@@ -25,8 +25,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        // Add repository
         maven {
-            url "https://maven.google.com" // Google's Maven repository
+            url 'https://maven.google.com/'
         }
     }
 }

@@ -12,6 +12,9 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import com.crashlytics.android.Crashlytics;
 
 /**
  * Fragment representing the login screen for Shrine.
@@ -25,6 +28,7 @@ public class LoginFragment extends Fragment {
         View view = inflater.inflate(R.layout.shr_login_fragment, container, false);
         final TextInputLayout passwordTextInput = view.findViewById(R.id.password_text_input);
         final TextInputEditText passwordEditText = view.findViewById(R.id.password_edit_text);
+
         MaterialButton nextButton = view.findViewById(R.id.next_button);
         // Set an error if the password is less than 8 characters.
         nextButton.setOnClickListener(new View.OnClickListener() {
